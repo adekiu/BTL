@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+    background-color: #FFF768;
+}
+/* ---------------nav-------------------- */
+.container{
+    width: 1200px;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    
+    background-color: black;
+}
+nav ul{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+nav ul li, a{
+    color: white;
+    font-size: 12px;
+}
+/* -----------logo--------------- */
+nav ul li:nth-child(1){
+    float:left;
+    width: 20%;
+}
+/* ----------tim kiem----------- */
+nav ul li:nth-child(2){
+    position: relative;
+    float:left;
+    width: 50%;
+}
+nav ul li:nth-child(2) input{
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding-left: 3px;
+    cursor: pointer;
+}
+nav ul li:nth-child(2) i{
+    position:absolute;
+    font-size: 15px;
+    color: rgb(104, 103, 103);
+    right: 8px;
+    top: 8px;
+}
+/* -----------------Gio hang---------- */
+nav ul li:nth-child(3){
+    float:left;
+    width: 15%;
+    text-align: center;
+}
+nav ul li:nth-child(3) button{
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    
+}
+nav ul li:nth-child(3) button:hover{
+    background-color: #FFF768;
+    border: none;
+    color: black;
+    
+}
+nav ul li:nth-child(3) i{
+    font-size: 15px;
+    padding-right:4px ;
+}
+/* -----------------user-------------- */
+nav ul li:nth-child(4){
+    float: left;
+    with:15%;
+    cursor: pointer;
+}
+nav ul li:nth-child(4) i{
+    font-size: 28px;
+}
+/* ----------------banner-------------- */
+.banner{
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+.container-2{
+    display:flex;
+    padding-top: 20px;
+    justify-content: center;
+}
+.left-banner img{
+    height: 198px;
+    cursor: pointer;
+}
+.right-banner ul li{
+    padding-left: 5px;
+    cursor: pointer;
+}
+@media screen and (max-width: 1200px) {
+    .container {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+
+
+
