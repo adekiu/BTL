@@ -95,6 +95,56 @@ nav ul li:nth-child(4){
 nav ul li:nth-child(4) i{
     font-size: 28px;
 }
+/* ---------------Header-2------------- */
+.Header-2{
+    background-color: yellow;
+    height: 46px;
+}
+
+.Header-2 ul{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.Header-2 ul li{
+    display: inline-block;
+    width: 10%;
+    font-size: 16px;
+    line-height: 46px;
+}
+
+.Header-2 ul li:hover{
+    background-color: #ccc;
+    color: #000;
+}
+
+/* ---------banner-two-side------------ */
+.banner-left a{
+    position: fixed;
+    top: 195px;
+    width: 89px;
+    z-index: 999;
+    left: calc(((100vw - 1200px)/2) - 80px);
+}
+
+.banner-left a img{
+    cursor: pointer;
+    max-width: 100%;
+}
+
+.banner-right a{
+    position: fixed;
+    top: 195px;
+    width: 89px;
+    z-index: 999;
+    right: calc(((100vw - 1200px)/2) - 80px);
+}
+
+.banner-left a img{
+    cursor: pointer;
+    max-width: 100%;
+}
 /* ----------------banner-------------- */
 .banner{
     padding: 0px;
