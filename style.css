@@ -94,6 +94,30 @@ nav ul li:nth-child(4){
 }
 nav ul li:nth-child(4) i{
     font-size: 28px;
+    padding-right: 6px;
+}
+/* ---------------Header-2------------- */
+.Header-2{
+    background-color: #FFF768;
+    height: 46px;
+}
+
+.Header-2 ul{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.Header-2 ul li{
+    display: inline-block;
+    width: 10%;
+    font-size: 16px;
+    line-height: 46px;
+}
+
+.Header-2 ul li:hover{
+    background-color: yellow;
+    color: #000;
 }
 /* ----------------banner-------------- */
 .banner{
@@ -115,11 +139,10 @@ nav ul li:nth-child(4) i{
     cursor: pointer;
 }
 /* -----------------list-product------------------- */
-.product-content{
+.product-items{
     display: flex;
-    
-    justify-content: space-between;
- 
+    flex-wrap: wrap;
+    padding: 0px 155px;
 }
 .product-item{
     width: 20%;
@@ -136,7 +159,6 @@ nav ul li:nth-child(4) i{
 .product-item-info li{
     padding: 6px;
     list-style: none;
-   
 }
 .product-item-info li:first-child {
     font-size: 12px;
@@ -150,4 +172,26 @@ nav ul li:nth-child(4) i{
 .product-item-info li:nth-child(4){
     color: #dd9f2c;
 }
-
+.product-filter{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.product-filter ul{
+    display: flex;
+    margin-right: 155px;
+}
+.product-filter ul li{
+    margin-left: 20px;
+}
+.product-filter h2{
+    margin-left: 155px;
+}
+.footer{
+    background-color: rgb(172, 168, 168);
+    text-align:justify;
+    padding: 20px 100px;
+    font-size: 11px;
+    margin-top: 100px;
+}
